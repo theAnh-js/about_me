@@ -151,23 +151,9 @@ html {
 .interest-item {
   text-align: center;
   margin-bottom: 20px;
-  background: rgb(34, 193, 195);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
 }
 .interest-heading {
   padding: 7px;
@@ -268,8 +254,10 @@ dd {
 .saying-description {
   width: 257px;
   height: 126px;
-  background-color: #ccc;
-  color: #000;
+  background: #8e0e00;
+  background: -webkit-linear-gradient(to right, #1f1c18, #8e0e00);
+  background: linear-gradient(to right, #1f1c18, #8e0e00);
+  color: #fff;
   margin-top: -4px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -281,8 +269,44 @@ dd {
 .saying-description p {
   font-size: 18px;
 }
-/* birth-place */
+/* study-abroad */
+.experience-description {
+  width: 257px;
+  height: 45px;
+  background: #00bf8f;
+  background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+  background: linear-gradient(to right, #001510, #00bf8f);
+  color: #fff;
+  margin-top: -4px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* dream */
+.dream-container {
+  background-image: url(./image/dream-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin: 0 70px;
+}
+.dream-container .intro-content {
+  padding-top: 20px;
+}
+.my-dream {
+  padding: 30px 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-me .dream-content {
+  padding-top: 10px;
+}
 /* footer */
 #footer {
   padding: 64px 16px;
