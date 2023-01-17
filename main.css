@@ -171,7 +171,8 @@ html {
 }
 .interest-img {
   height: 300px;
-  width: 200;
+  width: 200px;
+  object-fit: cover;
   margin: 20px;
   border-radius: 50%;
 }
@@ -268,6 +269,14 @@ dd {
 }
 .saying-description p {
   font-size: 18px;
+}
+
+/* birth-place */
+.content-me .country-image {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
 }
 /* study-abroad */
 .experience-description {
